@@ -1,15 +1,16 @@
 " Must be first
 set nocompatible
 
+" If ruby causes updater to SEGV: brew uninstall vim; rvm system; brew installvim
 call plug#begin('~/.vim/plugged')
 " Use single quotes ('foo') around plugins
 Plug 'tpope/vim-sensible'
 Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
-Plug 'scrooloose/syntastic', { 'for' : 'c' }
-Plug 'vim-pandoc/vim-pandoc', { 'for' : ['doc', 'docx'] }
-Plug 'begriffs/haskell-vim-now', { 'for' : 'hs' }
+" Plug 'scrooloose/syntastic', { 'for' : 'c' }
+" Plug 'vim-pandoc/vim-pandoc', { 'for' : ['doc', 'docx'] }
+" Plug 'begriffs/haskell-vim-now', { 'for' : 'hs' }
 call plug#end()
 
 filetype plugin indent on
