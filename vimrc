@@ -1,0 +1,36 @@
+" Must be first
+set nocompatible
+
+call plug#begin('~/.vim/plugged')
+" Use single quotes ('foo') around plugins
+Plug 'tpope/vim-sensible'
+Plug 'airblade/vim-gitgutter'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/syntastic', { 'for' : 'c' }
+Plug 'vim-pandoc/vim-pandoc', { 'for' : ['doc', 'docx'] }
+Plug 'begriffs/haskell-vim-now', { 'for' : 'hs' }
+call plug#end()
+
+filetype plugin indent on
+
+" ----- General settings -----------------------------------------------
+set backspace=indent,eol,start
+set ruler
+set number
+set showcmd
+set incsearch
+set hlsearch
+
+syntax enable
+set background=dark
+" Uncomment when not using solarized terminal themes.
+" or change colorscheme.
+" let g:solarized_termcolors=256
+colorscheme solarized
+
+if has('mouse')
+	set mouse=a
+endif
+
+
