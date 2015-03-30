@@ -6,9 +6,15 @@
 
 dir=~/.dotfiles                    # dotfiles directory
 olddir=~/.dotfiles_old             # old dotfiles backup directory
-files="gitconfig gitignore_global bashrc bash_profile vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
+files="bashrc bash_profile vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
 
 ##########
+
+# create symlinks for git files
+mv ~/.gitconfig $olddir
+ln -s $dir/git/.gitconfig ~
+mv ~/.gitignore_global $olddir
+ln -s $dir/git/.gitignore_global ~ 
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
