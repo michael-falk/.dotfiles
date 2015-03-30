@@ -5,16 +5,10 @@
 ############################d
 
 dir=~/.dotfiles                    # dotfiles directory
-olddir=~/.dotfiles_old             # old dotfiles backup directory
+olddir=$dir/.old_dotfiles          # old dotfiles backup directory
 files="bashrc bash_profile vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
 
 ##########
-
-# create symlinks for git files
-mv ~/.gitconfig $olddir
-ln -s $dir/git/.gitconfig ~
-mv ~/.gitignore_global $olddir
-ln -s $dir/git/.gitignore_global ~ 
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
@@ -25,6 +19,12 @@ echo "...done"
 echo "Changing to the $dir directory"
 cd $dir
 echo "...done"
+
+# create symlinks for git files
+mv ~/.gitconfig $olddir
+ln -s $dir/git/.gitconfig ~
+mv ~/.gitignore_global $olddir
+ln -s $dir/git/.gitignore_global ~ 
 
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
 
