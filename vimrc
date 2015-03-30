@@ -8,9 +8,7 @@ Plug 'tpope/vim-sensible'
 Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
-" Plug 'scrooloose/syntastic', { 'for' : 'c' }
-" Plug 'vim-pandoc/vim-pandoc', { 'for' : ['doc', 'docx'] }
-" Plug 'begriffs/haskell-vim-now', { 'for' : 'hs' }
+Plug 'scrooloose/syntastic'
 call plug#end()
 
 filetype plugin indent on
