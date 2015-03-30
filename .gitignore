@@ -1,2 +1,5 @@
 # Old dotfiles - No need to push upstream
 .old_dotfiles
+
+# Vim directory will be generated programmatically
+.vim
