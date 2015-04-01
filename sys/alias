@@ -7,5 +7,5 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 alias vim='/usr/local/bin/vim'
 
 # quickly access config files
-alias bashconfig="vim $(readlink ~/.bashrc)"
-alias zshconfig="vim $(readlink  ~/.zshrc)"
+alias bashrc"vim $(readlink ~/.bashrc)"
+alias zshrc="vim $(readlink  ~/.zshrc)"
