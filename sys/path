@@ -1,0 +1,8 @@
+# Setting PATH for Python 3.4
+PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}" 
+export PATH="$PATH:/Users/michaelfalk/.rvm/gems/ruby-2.0.0-p481/bin:/Users/michaelfalk/.rvm/gems/ruby-2.0.0-p481@global/bin:/Users/michaelfalk/.rvm/rubies/ruby-2.0.0-p481/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:/Users/michaelfalk/.rvm/bin"
+
+# Java Classpath
+export CLASSPATH=$CLASSPATH:/Applications/JUnit\ Command\ Line/junit-4.12-beta-1.jar:/Applications/JUnit\ Command\ Line/hamcrest-core-1.3.jar
+
