@@ -9,7 +9,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/syntastic'
+Plug 'lukerandall/haskellmode-vim'
 call plug#end()
+
+let g:haddock_browser="/usr/bin/safari"
 
 filetype plugin indent on
 

@@ -10,4 +10,4 @@ export PATH
 
 export CLASSPATH=$CLASSPATH:/Applications/JUnit\ Command\ Line/junit-4.12-beta-1.jar:/Applications/JUnit\ Command\ Line/hamcrest-core-1.3.jar
 
-alias vim='/usr/local/bin/vim'
+source ~/.dotfiles/sys/alias
