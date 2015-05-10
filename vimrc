@@ -10,6 +10,10 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/syntastic'
 Plug 'lukerandall/haskellmode-vim'
+" Plug 'godlygeek/tabular'
+" Plug 'plasticboy/vim-markdown'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
 
 let g:haddock_browser="/usr/bin/safari"

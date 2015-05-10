@@ -36,3 +36,7 @@ source ~/.dotfiles/sys/path
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+source /usr/local/opt/autoenv/activate.sh

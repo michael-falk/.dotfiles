@@ -7,5 +7,15 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 alias vim='/usr/local/bin/vim'
 
 # quickly access config files
-alias bashrc"vim $(readlink ~/.bashrc)"
+alias bashrc="vim $(readlink ~/.bashrc)"
 alias zshrc="vim $(readlink  ~/.zshrc)"
+alias vimrc="vim $(readlink ~/.vimrc)"
+alias aliasrc="vim ~/.dotfiles/sys/alias"
+alias pathrc="vim ~/.dotfiles/sys/path"
+
+# I want to use python3 by default but reflexively use python
+alias python="python3"
+
+# Quick cd to Georgia Tech class folders
+alias cs4650="cd ~/Documents/Georgia\ Tech/CS4650"
+

@@ -12,6 +12,7 @@
 [core]
 	excludesfile = /Users/michaelfalk/.gitignore_global
 	autocrlf = input
+	editor = vim
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
