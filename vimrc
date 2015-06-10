@@ -1,23 +1,6 @@
 " Must be first
 set nocompatible
 
-" If ruby causes updater to SEGV: brew uninstall vim; rvm system; brew installvim
-call plug#begin('~/.vim/plugged')
-" Use single quotes ('foo') around plugins
-Plug 'tpope/vim-sensible'
-Plug 'airblade/vim-gitgutter'
-Plug 'altercation/vim-colors-solarized'
-Plug 'tpope/vim-surround'
-Plug 'scrooloose/syntastic'
-Plug 'lukerandall/haskellmode-vim'
-" Plug 'godlygeek/tabular'
-" Plug 'plasticboy/vim-markdown'
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
-call plug#end()
-
-let g:haddock_browser="/usr/bin/safari"
-
 filetype plugin indent on
 
 " ----- General settings -----------------------------------------------

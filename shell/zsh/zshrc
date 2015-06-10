@@ -7,8 +7,6 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="pygmalion"
 
-source ~/.dotfiles/sys/alias
-
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -17,8 +15,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-source ~/.dotfiles/sys/path
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -40,3 +36,4 @@ source ~/.dotfiles/sys/path
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 source /usr/local/opt/autoenv/activate.sh
+source /usr/local/bin/virtualenvwrapper.sh

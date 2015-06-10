@@ -2,7 +2,10 @@
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-source ~/.dotfiles/sys/path
-source ~/.dotfiles/sys/alias
+source ~/.dotfiles/shell/sys/path
+source ~/.dotfiles/shell/sys/alias
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+source /usr/local/opt/autoenv/activate.sh
+source /usr/local/bin/virtualenvwrapper.sh

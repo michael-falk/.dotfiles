@@ -1,3 +1,6 @@
+# TODO REFACTOR FILES TO REFLECT NEW FILEPATHS
+
+
 #!/bin/bash
 ############################
 # .make.sh
