@@ -1,5 +1,5 @@
 # Setting PATH for Python 3.4
-PATH="/usr/local/bin:${PATH}" 
+PATH="/usr/local/bin:$PATH" 
 PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.cabal/bin:$PATH:/Users/michaelfalk/.rvm/gems/ruby-2.0.0-p481/bin:/Users/michaelfalk/.rvm/gems/ruby-2.0.0-p481@global/bin:/Users/michaelfalk/.rvm/rubies/ruby-2.0.0-p481/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Users/michaelfalk/.rvm/bin"
 

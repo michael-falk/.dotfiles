@@ -10,8 +10,8 @@ alias vim='/usr/local/bin/vim'
 alias bashrc="vim $(readlink ~/.bashrc)"
 alias zshrc="vim $(readlink  ~/.zshrc)"
 alias vimrc="vim $(readlink ~/.vimrc)"
-alias aliasrc="vim ~/.dotfiles/sys/alias"
-alias pathrc="vim ~/.dotfiles/sys/path"
+alias aliasrc="vim ~/.dotfiles/shell/sys/alias"
+alias pathrc="vim ~/.dotfiles/shell/sys/path"
 
 # I want to use python3 by default but reflexively use python
 alias python="python3"
