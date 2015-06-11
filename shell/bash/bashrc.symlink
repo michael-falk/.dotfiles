@@ -5,7 +5,9 @@
 source ~/.dotfiles/shell/sys/path
 source ~/.dotfiles/shell/sys/alias
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
 
 source /usr/local/opt/autoenv/activate.sh
 source /usr/local/bin/virtualenvwrapper.sh

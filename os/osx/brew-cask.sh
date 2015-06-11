@@ -6,7 +6,6 @@ apps=(
 	google-drive
 	spotify
 	sublime-text3
-	virtualbox
 	vlc
 )
 
