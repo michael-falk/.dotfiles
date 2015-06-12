@@ -2,11 +2,17 @@
 
 apps=(
 	dropbox
-	flux
+	copy
 	google-drive
-	spotify
-	sublime-text3
-	vlc
+	transmission
+        vlc
+        evernote
+        steam
+        spotify
+        intellij-idea
+        pycharm
+        rubymine
+        sublime-text3
 )
 
 brew cask install ${apps[@]}
