@@ -4,7 +4,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 # Recursively remove .DS_Store files
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
-alias vim='/usr/local/bin/vim'
 
 # quickly access config files
 alias bashrc="vim $(readlink ~/.bashrc)"
@@ -13,14 +12,3 @@ alias vimrc="vim $(readlink ~/.vimrc)"
 alias aliasrc="vim ~/.dotfiles/shell/sys/alias"
 alias pathrc="vim ~/.dotfiles/shell/sys/path"
 
-# I want to use python3 by default but reflexively use python
-alias python="python3"
-alias upgrade_pip="pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
-
-# Quick cd to development directory
-alias Development='cd ~/Documents/Development/'
-alias dev=Development
-
-# Quick cd to Georgia Tech class folders
-alias cs4650="cd ~/Documents/Georgia\ Tech/CS4650"
-alias nlp="cs4650; workon nlp; ipython notebook"
