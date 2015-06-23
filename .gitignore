@@ -1,6 +1,7 @@
 # Old dotfiles - No need to push upstream
 .old_dotfiles
 extra/*
+!extra/README
 
 # Vim directory will be generated programmatically
 vim
