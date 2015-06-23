@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+if [ `readlink $1` = "$2" ];
+	then echo "It's a match!";
+else
+    echo "The source does not point to the target";
+fi
