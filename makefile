@@ -16,4 +16,4 @@ mac:	platform crossplatform dotfiles
 linux:	crossplatform dotfiles platform
 
 list:
-	@find . -regex '^.*\.symlink' | sed 's_/.*/__' | sed 's/.symlink//';
+	@find . -regex '^.*\.symlink' | sed -e 's_/.*/__' -e 's/.symlink//';
