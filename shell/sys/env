@@ -1,0 +1,17 @@
+haveProg() {
+    [ -x "$(which $1)" ]
+}
+
+include () {
+        [[ -f "$1" ]] && source "$1"
+}
+
+include /usr/local/opt/autoenv/activate.sh
+include /usr/local/bin/virtualenvwrapper.sh
+
+haveprog() {
+        [ -x "$(which $1)" ]
+}
+
+if haveprog brew; then export pkgm=brew;
+fi

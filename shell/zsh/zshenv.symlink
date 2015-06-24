@@ -1,2 +1,3 @@
+source ~/.dotfiles/shell/sys/env
 source ~/.dotfiles/shell/sys/path
 source ~/.dotfiles/shell/sys/alias

@@ -32,12 +32,6 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
  
 
-include () {
-        [[ -f "$1" ]] && source "$1"
-}
-
-include /usr/local/opt/autoenv/activate.sh
-include /usr/local/bin/virtualenvwrapper.sh
 
 # OPAM configuration
 . /Users/michaelfalk/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

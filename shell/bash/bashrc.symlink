@@ -1,5 +1,6 @@
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
+source ~/.dotfiles/shell/sys/env
 source ~/.dotfiles/shell/sys/path
 source ~/.dotfiles/shell/sys/alias
 
@@ -7,9 +8,3 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
 
-include () {
-        [[ -f "$1" ]] && source "$1"
-}
-
-include /usr/local/opt/autoenv/activate.sh
-include /usr/local/bin/virtualenvwrapper.sh
