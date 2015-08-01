@@ -3,5 +3,3 @@
 extra/*
 !extra/README
 
-# Vim directory will be generated programmatically
-vim
