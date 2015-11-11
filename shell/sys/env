@@ -11,6 +11,8 @@ include () {
     [[ -f "$1" ]] && source "$1"
 }
 
+eval "$(rbenv init -)"
+
 include /usr/local/opt/autoenv/activate.sh
 include /usr/local/bin/virtualenvwrapper.sh
 
