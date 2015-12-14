@@ -8,6 +8,11 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/syntastic'
+Plug 'ervandew/supertab'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-dispatch'
+Plug 'slim-template/vim-slim'
 
 call plug#end()
 
@@ -36,6 +41,7 @@ if has('mouse')
 	set mouse=a
 endif
 
+autocmd FileType tex let b:dispatch = 'pdflatex % && latexmk -c'
 
 noremap <Up> <Nop>
 noremap <Down> <Nop>
