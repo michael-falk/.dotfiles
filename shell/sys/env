@@ -11,10 +11,6 @@ include () {
     [[ -f "$1" ]] && source "$1"
 }
 
-eval "$(rbenv init -)"
-
-include /usr/local/opt/autoenv/activate.sh
-include /usr/local/bin/virtualenvwrapper.sh
 
 haveprog() {
     [ -x "$(which $1)" ]
@@ -22,3 +18,5 @@ haveprog() {
 
 if haveprog brew; then export pkgm=brew;
 fi
+
+export TERM=xterm

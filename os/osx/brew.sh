@@ -13,7 +13,6 @@ apps=(
 	git
 	gnu-sed --default-names
 	grep --default-names
-	python3
 	tmux
         vim
 	wget

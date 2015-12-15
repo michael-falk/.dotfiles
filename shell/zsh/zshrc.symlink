@@ -31,7 +31,4 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
  
-
-
-# OPAM configuration
-. /Users/michaelfalk/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+export TERM=xterm

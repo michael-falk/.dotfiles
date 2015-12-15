@@ -11,5 +11,3 @@ alias zshrc="vim $(readlink  ~/.zshrc)"
 alias vimrc="vim $(readlink ~/.vimrc)"
 alias aliasrc="vim ~/.dotfiles/shell/sys/alias"
 alias pathrc="vim ~/.dotfiles/shell/sys/path"
-
-source ~/.dotfiles/extra/alias
