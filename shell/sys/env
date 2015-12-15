@@ -1,6 +1,6 @@
 case $OSTYPE in
-    darwin*)
-        echo "I'm a Mac"
+	darwin*)
+		echo "I'm a Mac"
 esac
 
 haveProg() {

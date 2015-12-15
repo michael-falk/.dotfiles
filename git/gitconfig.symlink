@@ -1,7 +1,6 @@
 [user]
 	name = Michael Falk
 	email = michael.falk.94@gmail.com
-	;email = mfalk94@gatech.edu
 [credential]
 	helper = osxkeychain
 [filter "media"]
